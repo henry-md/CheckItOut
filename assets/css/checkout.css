@@ -1,0 +1,163 @@
+#secondary-heading {
+    font-size: 30px !important;
+}
+
+.center-els {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright {
+    padding-top: 5px;
+}
+
+/* helpers */
+.relative {
+    position: relative;
+    margin: 0; padding: 0;
+}
+.full-width {
+    width: 100%;
+    height: 100%;
+}
+.rounded {
+    border-radius: 5px !important;
+}
+
+
+
+/* full body sleeve */
+#full-body-sleeve-fixed {
+    position: fixed;
+    top: -2px;
+    left: -2px;
+    width: 101%;
+    height: 101%;
+    z-index: 9990;
+    scroll-behavior: unset;
+    background: none;
+}
+
+#full-body-iframe {
+    position: absolute;
+    top: 5%; left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    z-index: 9992;
+}
+
+#full-body-background {
+    position: absolute;
+    top: 0; left: 0;
+    width: 101%; height: 101%;
+    outline: none;
+    z-index: 9991;
+    margin: 0; padding: 0;
+    background-color: #000;
+    opacity: 50%;
+}
+
+
+/* small-screen iframe demo */
+#iframe-container {
+    padding: 0; margin: 0;
+    width: fit-content;
+    width: 60%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#iframe {
+    border: 5px solid white;
+    border-radius: 5px !important;
+    padding: 0; margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* full screen button */
+#iframe-full-screen { 
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 10px; right: 10px;
+    background: none;
+    border-radius: 5px;
+    z-index: 99;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    opacity: 50%;
+    transition: all .5s;
+
+    /* revert button default behavior */
+    border: none;
+    outline: none;
+
+}
+
+#iframe-full-screen:hover {
+    opacity: 70%;
+}
+
+.full-screen-icon {
+    opacity: 50%;
+    transition: all .5s;
+    color: #6831e1;
+}
+
+#iframe-full-screen:hover .full-screen-icon {
+    opacity: 100%;
+}
+
+/* stop body from scrolling */
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-1-container {
+    width: 700px;
+}
+
+/* .image-1-container {
+    width: 400px;
+    z-index: -999;
+}
+.image-1 {
+    width: 1000px;
+    max-width: none;
+    float: right;
+    margin: 200px -350px 0 0;
+}
+.image-1-text {
+    margin: -200px 0 0 -200px;
+} */
+
+.image-2 {
+    margin: 0;
+    width: 700px;
+}
+
+.image-3 {
+    width: 400px;
+    margin: 0 0 0 50px;
+}
+
+.section-title-subhead {
+    display: block; width: 900px; margin: 10px auto 0 auto; font-size: 1.75rem; font-family: 'Poppins', sans-serif; font-weight: 500;
+}
+
+.section-title-1 {
+    padding: 0;
+}
+
+#contact {
+    padding: 80px 0 40px 0 !important;
+}
