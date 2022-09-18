@@ -29,6 +29,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/checkout.css" rel="stylesheet">
+  <link href="assets/css/mobile.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Techie - v4.9.0
@@ -70,7 +71,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
 
-    <div class="container-fluid" data-aos="fade-up">
+    <div class="container-fluid hero-container" data-aos="fade-up">
       <div class="row justify-content-center">
         <div class="image-1-text col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>Grocery checkout, streamlined</h1>
@@ -109,13 +110,22 @@
             <p class="fst-italic">
               Our product could help automate the process of identifying items during checkout. We avoid using bar codes and relying on human labor, which translates to huge savings costs for our customers. Our product helps with the following:
             </p>
+
+            <style>
+              .list-text {
+                float: right;
+                height: 27.5px;
+                position: relative; top: 2px;
+              }
+              li {
+                justify-content: left;
+              }
+            </style>
             <ul>
               <li><i class="bi bi-check-circle"></i> Reduce human hours needed for check-out </li>
               <li><i class="bi bi-check-circle"></i> Expedite and improve customer experience</li>
               <li><i class="bi bi-check-circle"></i> Reduce plastic waste involved with bulk food items</li>
             </ul>
-
-
 
             <a href="#features" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>
           </div>
@@ -130,7 +140,7 @@
 
         <iframe data-aos="zoom-in" data-aos-delay="150" class="demo-iframe" width="560" height="315" src="https://www.youtube.com/embed/IYEPlnsMiGc?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay muted></iframe>
 
-        <div data-aos="zoom-in" data-aos-delay="150">
+        <div class="demo-text" data-aos="zoom-in" data-aos-delay="150">
           <div class="section-title demo-text">
             <h2>
               Stop By & Check out a working demo!</span>
@@ -174,7 +184,7 @@
               <p>Increased security in self-checkout lanes with an additional overhead camera.</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
+          <div class="image-3-container image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
             <img src="assets/img/image-3.jpg" alt="" class="img-fluid image-3">
           </div>
         </div>

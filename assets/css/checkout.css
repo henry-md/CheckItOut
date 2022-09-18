@@ -162,11 +162,11 @@
     padding: 80px 0 40px 0 !important;
 }
 
-.demo-container {
-    display: flex !important;
-    justify-content: space-evenly !important;
-    align-items: center !important;
-    flex-direction: row !important;
+.demo-container { /* used to be important */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
 }
 
 .demo-text {
