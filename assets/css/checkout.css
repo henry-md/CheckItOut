@@ -163,12 +163,12 @@
 }
 
 .demo-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    flex-direction: row !important;
 }
 
 .demo-text {
-    width: 300px; color: white;
+    width: 300px !important; color: white !important;
 }
